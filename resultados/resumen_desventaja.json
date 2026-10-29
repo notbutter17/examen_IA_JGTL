@@ -1,0 +1,11 @@
+{
+  "umbral_ratio_train_P75": 18.363013698630137,
+  "contraste_aditivo_test": 0.15961199552143968,
+  "interpretacion": "Contraste descriptivo de cuatro tasas crudas; no estima efecto causal ni interaccion ajustada. Ratio alto significa P75 de la muestra train, no norma MINEDU.",
+  "casos_sin_desfase_doble_desventaja_test": 10,
+  "IC95_contraste_bootstrap_conglomerados": [
+    -0.043388639652212416,
+    0.35255623604553493
+  ],
+  "replicas_validas": 1000
+}

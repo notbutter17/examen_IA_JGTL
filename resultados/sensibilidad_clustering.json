@@ -1,0 +1,11 @@
+{
+  "ganador": {
+    "algoritmo": "KMeans",
+    "k": 5,
+    "silueta": 0.3014562415278077,
+    "Davies_Bouldin": 1.3018155802540599,
+    "Calinski_Harabasz": 453.5663324258886
+  },
+  "ARI_con_perfiles_recursos_train": 0.9104401380648348,
+  "nota": "Perfil alternativo incluye desfase para cubrir la variable sugerida por la guia; sus diferencias de rezago son parcialmente definitorias. No se usa en el clasificador."
+}

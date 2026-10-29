@@ -1,0 +1,18 @@
+{
+  "casos": {
+    "alto": {
+      "fila": 12936,
+      "real": 1,
+      "probabilidad": 0.622765064239502
+    },
+    "bajo": {
+      "fila": 4139,
+      "real": 0,
+      "probabilidad": 0.3724721074104309
+    }
+  },
+  "muestra": 350,
+  "fondo_train": 80,
+  "error_aditividad_max": 3.2224566137717403e-07,
+  "nota": "Scatter coloreado describe dependencia; no calcula valores formales de interaccion ni causalidad."
+}

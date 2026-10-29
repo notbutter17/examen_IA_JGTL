@@ -1,0 +1,27 @@
+prueba,cumple
+Llave de persona unica,True
+Poblacion entre 6 y 17,True
+Normativa derivada correctamente,True
+Etiqueta consistente con definicion,True
+No hay proxies directos en predictores,True
+Todas las personas asignadas exactamente una vez,True
+Conglomerados train test disjuntos,True
+Fold 1 sin solapamiento,True
+Fold 2 sin solapamiento,True
+Fold 3 sin solapamiento,True
+Fold 4 sin solapamiento,True
+Fold 5 sin solapamiento,True
+Codigos binarios internet_hogar,True
+Codigos binarios electricidad,True
+Codigos binarios uso_internet,True
+Internet conserva ambas categorias,True
+Diccionario cubre todas las columnas,True
+Ganador elegido en CV,True
+Conteos de confusion coinciden con test,True
+Aditividad SHAP verificada,True
+Waterfall correcto alto,True
+Waterfall correcto bajo,True
+Hash seleccion 1474,True
+Hash seleccion 1479,True
+Hash seleccion 1475,True
+Hash seleccion 1478,True

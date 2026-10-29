@@ -1,0 +1,98 @@
+{
+  "ganador": "XGBoost",
+  "criterio": "Mayor AP media en validacion GroupKFold de train; test no elige modelo ni parametros.",
+  "n_train": 15498,
+  "n_test": 3788,
+  "conglomerados_train": 3760,
+  "conglomerados_test": 941,
+  "solapamiento": 0,
+  "prevalencia_test": 0.38595564941921856,
+  "test": {
+    "ROC_AUC": 0.5397024123892993,
+    "PR_AUC_AP": 0.416418867717058,
+    "F1_macro": 0.521912206440645,
+    "Brier": 0.24803540110588074
+  },
+  "IC95_bootstrap_conglomerados": {
+    "ROC_AUC": [
+      0.5159198863907369,
+      0.5631786335292157
+    ],
+    "PR_AUC_AP": [
+      0.3884090452421745,
+      0.4449993667061361
+    ],
+    "F1_macro": [
+      0.503197745996785,
+      0.5415222922195396
+    ],
+    "Brier": [
+      0.24597119614481927,
+      0.2502154380083084
+    ]
+  },
+  "matriz_confusion": [
+    [
+      1339,
+      987
+    ],
+    [
+      771,
+      691
+    ]
+  ],
+  "sensibilidad_distrito": {
+    "ROC_AUC": 0.5271570717839374,
+    "PR_AUC_AP": 0.4029479129022805,
+    "F1_macro": 0.5083712978886565,
+    "Brier": 0.24888986349105835
+  },
+  "sensibilidad_atraso_2_anios": {
+    "ROC_AUC": 0.6341124676034386,
+    "PR_AUC_AP": 0.10664278687556533,
+    "F1_macro": 0.463950540366242,
+    "Brier": 0.2052874118089676
+  },
+  "sensibilidad_FACPOB07": {
+    "ROC_AUC": 0.5548097637959062,
+    "PR_AUC_AP": 0.4248689386530531,
+    "F1_macro": 0.5288542216349081,
+    "Brier": 0.24455107709640933
+  },
+  "nota_pesos": "Balance de clases solo en train por fold. FACTOR07 se conserva; FACPOB07 solo sensibilidad descriptiva, sin inferencia nacional del panel.",
+  "predictores": [
+    "mujer",
+    "rural",
+    "electricidad",
+    "internet_hogar",
+    "uso_internet",
+    "frecuencia_tic",
+    "log_ingreso_pc",
+    "log_gasto_pc",
+    "miembros_hogar",
+    "ratio_alumno_docente",
+    "proporcion_publica",
+    "latitud",
+    "longitud",
+    "lengua",
+    "pobreza",
+    "dominio"
+  ],
+  "exclusiones": [
+    "FACPOB07",
+    "FACTOR07",
+    "anios_desfase",
+    "atraso_dos_anios",
+    "cluster",
+    "codperso",
+    "conglome",
+    "edad",
+    "edad_normativa",
+    "grado_acumulado",
+    "hogar",
+    "rezago",
+    "ubigeo",
+    "vivienda"
+  ],
+  "umbral": 0.5
+}

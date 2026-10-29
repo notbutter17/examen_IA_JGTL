@@ -1,0 +1,94 @@
+[
+  {
+    "archivo_original": "1041-Modulo1474.zip",
+    "miembro_csv": "1041-Modulo1474/enaho01-2021-2025-100-panel.csv",
+    "sha256_original": "d698d9e66bf8fb238b811230df03f0bc29f0d6a0828674f5c7f0d0d2c1452e72",
+    "seleccion_columnas": [
+      "conglome",
+      "vivienda",
+      "hogar",
+      "ubigeo",
+      "dominio",
+      "estrato",
+      "p1121",
+      "p1144",
+      "factor07"
+    ],
+    "filas": 44599,
+    "codificacion_verificada": "utf-8-sig",
+    "sha256_seleccion": "aac2c6caca066bb5ada870f0500e03382954715906523630444cac9081cf3b82"
+  },
+  {
+    "archivo_original": "1041-Modulo1479.zip",
+    "miembro_csv": "1041-Modulo1479/enaho01-2021-2025-200-panel.csv",
+    "sha256_original": "5b7506e77420a79c4b70ce8eff1d149dab4283b74a4cb2457c1131cf7abc0617",
+    "seleccion_columnas": [
+      "conglome",
+      "vivienda",
+      "hogar",
+      "codperso",
+      "ubigeo",
+      "p203",
+      "p204",
+      "p205",
+      "p206",
+      "p207",
+      "p208a",
+      "p208b1",
+      "p208c1",
+      "p208d1",
+      "facpob07"
+    ],
+    "filas": 115145,
+    "codificacion_verificada": "utf-8-sig",
+    "sha256_seleccion": "e031abc31e5a7841ad0c9d203376ab49e094cb5b456e82e604bf836d5d8e6bcd"
+  },
+  {
+    "archivo_original": "1041-Modulo1475.zip",
+    "miembro_csv": "1041-Modulo1475/enaho01a-2021-2025-300-panel.csv",
+    "sha256_original": "ca4b74967d97f4439c8fc9140fb0465c6511956ed3b63b6904a7230ddf7123b2",
+    "seleccion_columnas": [
+      "conglome",
+      "vivienda",
+      "hogar",
+      "codperso",
+      "p300a",
+      "p306",
+      "p307",
+      "p308a",
+      "p308b",
+      "p308c",
+      "p314a",
+      "p314d"
+    ],
+    "filas": 106958,
+    "codificacion_verificada": "utf-8-sig",
+    "sha256_seleccion": "2a444c783594e40a5dfda1626820c0dc7bf3894acda11a7b830aacad4240d4f0"
+  },
+  {
+    "archivo_original": "1041-Modulo1478.zip",
+    "miembro_csv": "1041-Modulo1478/sumaria-2021-2025-12g-panel.csv",
+    "sha256_original": "8ae563bff68ceecd0e508415cadabfea05f4280192ac779493fd7fcfd972ea91",
+    "seleccion_columnas": [
+      "conglome",
+      "vivienda",
+      "hogar",
+      "mieperho",
+      "gashog2d",
+      "inghog2d",
+      "pobreza",
+      "factor07"
+    ],
+    "filas": 33702,
+    "codificacion_verificada": "utf-8-sig",
+    "sha256_seleccion": "820f3a1d11541c2bb285416c920d1d8583f0097812242db33a5ddb8d30e664c5"
+  },
+  {
+    "archivo_original": "00_Padron.zip",
+    "sha256_original": "18192e82687bb3842d7ab0f69f33952e9cfbff6963fc0c8a656c4887239174b7"
+  },
+  {
+    "archivo_original": "00_Padlocal.zip",
+    "sha256_original": "e92f8cae6136acb45167615dc586883041ff7da1161394c0b87db1f417fe708e"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "ganador": {
+    "algoritmo": "GMM",
+    "k": 6,
+    "silueta": 0.3566707676764219,
+    "Davies_Bouldin": 1.065590071398739,
+    "Calinski_Harabasz": 538.0878182688423
+  },
+  "varianza_PCA": [
+    0.37135232993600154,
+    0.1612959673608725
+  ],
+  "variables": [
+    "rural",
+    "electricidad",
+    "internet_hogar",
+    "uso_internet",
+    "frecuencia_tic",
+    "log_ingreso_pc",
+    "log_gasto_pc",
+    "miembros_hogar",
+    "ratio_alumno_docente",
+    "proporcion_publica"
+  ],
+  "regla": "Ajuste y seleccion en train; test se asigna por predict. Rezago y anos de desfase solo caracterizan grupos, no los construyen."
+}

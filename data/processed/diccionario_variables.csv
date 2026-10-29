@@ -1,0 +1,38 @@
+﻿variable,fuente,definicion,uso,tipo,faltantes
+conglome,200,Conglomerado ENAHO texto 6 digitos,grupo,str,0
+vivienda,200,Vivienda texto 3 digitos,identificador,str,0
+hogar,200,Hogar texto 2 digitos,identificador,str,0
+codperso,200,Persona texto 2 digitos,identificador,str,0
+ubigeo,200,Distrito texto 6 digitos,cruce contextual,str,0
+edad,P208A,Edad declarada en anos cumplidos 6 a 17,solo etiqueta y descripcion,int64,0
+grado_acumulado,P308A P308B P308C,Primaria P308C 1..6; secundaria P308B 1..5 mas 6,solo etiqueta,float64,0
+edad_normativa,derivada,Grado acumulado mas 5,solo etiqueta,float64,0
+anios_desfase,derivada,max edad menos edad normativa 0,perfil y sensibilidad clustering,float64,0
+rezago,derivada,1 si edad declarada supera edad normativa; aproximacion sin fecha 31 marzo,objetivo principal,int64,0
+atraso_dos_anios,derivada,1 si desfase de dos o mas anos; sensibilidad de definicion,objetivo alternativo,int64,0
+mujer,P207,1 mujer 0 hombre; faltantes conservados,predictor,float64,0
+rural,ESTRATO,1 estratos 6..8; 0 estratos 1..5,predictor y cruce,float64,0
+lengua,P300A,Codigo original lengua materna; Sin respuesta si falta,predictor categorico,str,0
+lengua_originaria,P300A,Agrupacion descriptiva; no se usa en entrenamiento,descripcion,float64,20
+dominio,DOMINIO,Codigo dominio geografico original,predictor categorico,str,0
+electricidad,P1121,Seleccion multiple 1 electricidad seleccionada 0 no seleccionada,predictor,float64,0
+internet_hogar,P1144,Seleccion multiple 1 conexion seleccionada 0 no seleccionada,predictor,float64,0
+uso_internet,P314A,1 uso de internet mes anterior 0 no uso; origen 1 si 2 no,predictor,float64,0
+frecuencia_tic,P314D P314A,Ordinal 3 diario 2 semanal 1 mensual 0.5 bimestral o mas; 0 declara no usar,predictor ordinal no horas,float64,0
+pobreza,POBREZA,1 extrema 2 no extrema 3 no pobre; Sin respuesta si falta,predictor categorico,str,0
+miembros_hogar,MIEPERHO,Miembros del hogar mayor que cero,predictor,int64,0
+ingreso_pc_mensual,INGHOG2D MIEPERHO,Ingreso neto anual hogar / miembros /12; negativos faltantes,descripcion,float64,0
+gasto_pc_mensual,GASHOG2D MIEPERHO,Gasto anual hogar / miembros /12,descripcion,float64,0
+log_ingreso_pc,derivada,log1p ingreso per capita mensual,predictor,float64,0
+log_gasto_pc,derivada,log1p gasto per capita mensual,predictor,float64,0
+FACTOR07,Sumaria FACTOR07,Peso hogar conservado sin usar como predictor ni peso individual,diseno,float64,0
+FACPOB07,200 FACPOB07,Factor poblacional positivo solo sensibilidad sin totales nacionales panel,diseno,float64,0
+escuelas,Padron,Numero servicios activos B0/F0 en distrito y area,contexto,float64,369
+proporcion_publica,GESTION,Fraccion servicios con GESTION 1 o 2,predictor contextual,float64,369
+alumnos,TALUM,Suma de alumnos en servicios con TALUM >=0 y TDOC >0,contexto,float64,369
+docentes,TDOC,Suma docentes sobre el mismo conjunto valido,contexto,float64,369
+latitud,NLAT_IE,Media coordenadas validas -19 a 1 por distrito y area,predictor contextual,float64,369
+longitud,NLONG_IE,Media coordenadas validas -82 a -68 por distrito y area,predictor contextual,float64,369
+servicios_con_conteos,Padron,Numero servicios que aportan a la razon de sumas,control calidad,float64,369
+ratio_alumno_docente,TALUM TDOC,Suma alumnos / suma docentes; no tamano de aula ni carga individual,predictor contextual,float64,369
+contexto_encontrado,cruce,1 existe distrito y area en Padron 0 sin vinculo,control calidad,int64,0

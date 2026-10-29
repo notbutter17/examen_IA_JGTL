@@ -1,0 +1,35 @@
+{
+  "servicios_primaria_secundaria_activos": 54038,
+  "locales_vinculados": 54038,
+  "geocodigos_discrepantes": 1,
+  "fechas_padron": {
+    "29-10-2025": 54038
+  },
+  "altitud": "No disponible en Padron ni Padlocal suministrados; no se fabrica.",
+  "unidad": "Servicios activos B0/F0; contexto del distrito y area, no escuela de cada estudiante.",
+  "filas": 19286,
+  "columnas": 37,
+  "conglomerados": 4701,
+  "distritos": 1186,
+  "cobertura_contexto": 0.9808669501192575,
+  "prevalencia_rezago": 0.377216633827647,
+  "prevalencia_atraso_dos_anios": 0.04350305921393757,
+  "fechas_nacimiento_disponibles": 0,
+  "cruces": {
+    "cruce_educacion": {
+      "both": 19286,
+      "left_only": 0,
+      "right_only": 0
+    },
+    "cruce_hogar": {
+      "both": 19286,
+      "left_only": 0,
+      "right_only": 0
+    },
+    "cruce_sumaria": {
+      "both": 19286,
+      "left_only": 0,
+      "right_only": 0
+    }
+  }
+}

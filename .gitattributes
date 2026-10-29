@@ -1,0 +1,6 @@
+* text=auto
+*.png binary
+*.parquet binary
+*.joblib binary
+*.docx binary
+*.zip binary

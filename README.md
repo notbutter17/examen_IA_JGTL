@@ -79,4 +79,3 @@ resultados/        Experimentos, particiones, métricas y figuras
 informe/           Artículo Word y texto fuente
 docs/              Procedencia, rúbrica y sustentación
 ```
-
